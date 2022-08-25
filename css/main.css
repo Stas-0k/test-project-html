@@ -74,9 +74,18 @@ a {
 .customer-review-cont {
     width: 100%;
     min-height: 247px;   
-    
+    padding: 8px;
+}
+
+.customer-item {
+    background-color: #fff;
 }
 
 .customer-item:not(:last-child) {
     margin-bottom: 24px;
+}
+
+
+.icon-container:not(:last-child) {
+    margin-right: 3px;
 }
