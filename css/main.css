@@ -1,0 +1,55 @@
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.link,
+.list {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.customer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.customer-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33/28);
+
+    margin-bottom: 20px;
+}
+
+.customer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(16/14);
+    margin-bottom: 32px;
+}
