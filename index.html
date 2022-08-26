@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <section class="section customer-section">
@@ -14,7 +18,9 @@
         <p class="customer-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <ul class="list customer-list">
+        
+        <ul class="list customer-list">   
+          
           <li class="customer-item">
             <div class="customer-review-cont">
               <div class="icon-container">
@@ -40,22 +46,58 @@
                 options to choose from too, I would recommend to a freind, No
                 questions asked”
               </p>
-              <h3>Sumith Shah</h3>
-              <p>Some Dude</p>
+              <div class="customer-info-container">
+                <img
+                  src="./images/customer-1.jpg"
+                  alt="customer-1"
+                  class="customer-image"
+                />
+                <div class="customer-info-container-2">
+                  <h3 class="customer-name">Sumith Shah</h3>
+                  <p class="customer-description">Some Dude</p>
+                </div>
+              </div>
             </div>
           </li>
 
           <li class="customer-item">
             <div class="customer-review-cont">
+              <div class="icon-container">
+                <svg class="icon-star" width="17" height="16">
+                  <use href="./images/icon.svg#icon-star"></use>
+                </svg>
+                <svg class="icon-star" width="17" height="16">
+                  <use href="./images/icon.svg#icon-star"></use>
+                </svg>
+                <svg class="icon-star" width="17" height="16">
+                  <use href="./images/icon.svg#icon-star"></use>
+                </svg>
+                <svg class="icon-star" width="17" height="16">
+                  <use href="./images/icon.svg#icon-star"></use>
+                </svg>
+                <svg class="icon-star" width="17" height="16">
+                  <use href="./images/icon.svg#icon-star"></use>
+                </svg>
+              </div>
               <p class="customer-review">
                 “The ease with which I can just go in and order what i want was
                 amazing, It has been a very pleasant experience ordering from
                 this app”
               </p>
-              <h3>Sumith Shah</h3>
-              <p>Some Dude</p>
+              <div class="customer-info-container">
+                <img
+                  src="./images/customer-2.jpg"
+                  alt="customer-1"
+                  class="customer-image"
+                />
+                <div class="customer-info-container-2">
+                  <h3 class="customer-name">Sumith Shah</h3>
+                  <p class="customer-description">Some Dude</p>
+                </div>
+              </div>
             </div>
-          </li>
+          </li>  
+          
         </ul>
       </div>
     </section>
