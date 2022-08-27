@@ -97,28 +97,29 @@ a {
 
 .customer-review-cont {
   width: 100%;
-  min-height: 228px;
   padding: 8px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  outline: 1px solid red;
-  background-image: url(../images/comment-mobile.png);
 }
 @media screen and (min-width: 768px) {
   .customer-review-cont {
     padding: 12px;
-    background-image: url(../images/comment-tablet.png);
   }
 }
 
-@media screen and (min-width: 368px) {
+@media screen and (min-width: 768px) {
   .customer-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
+.customer-item {
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 336px;
+}
+
 .customer-item:not(:last-child) {
   margin-bottom: 24px;
 }
