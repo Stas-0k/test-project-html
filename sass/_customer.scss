@@ -32,6 +32,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../images/customer-mobile.jpg);
+
   @media screen and (min-width: 768px) {
     background-image: url(../images/customer-tablet.jpg);
     padding-bottom: 120px;
@@ -91,19 +92,19 @@ a {
 }
 
 .customer-review-cont {
-  width: 100%;  
- padding: 8px;
+  width: 100%;
+  padding: 8px;
 
-  @media screen and (min-width: 768px) {    
+  @media screen and (min-width: 768px) {
     padding: 12px;
-      }
+  }
 }
 
-@media screen and (min-width:768px){
-    .customer-list {
-           display: flex;  
-             
-        }
+@media screen and (min-width:768px) {
+  .customer-list {
+    display: flex;
+    gap: 32px;
+  }
 }
 
 .customer-item {
@@ -111,7 +112,7 @@ a {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-width: 336px;
+  width: 336px;
 }
 
 
@@ -151,6 +152,3 @@ width: 336px;
   padding-right: 14px;
   border-right: 0.854167px solid #7eb101;
 }
-
-
-
